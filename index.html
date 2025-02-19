@@ -82,7 +82,7 @@
             formData.append("pdf", fileInput);
             formData.append("query", userQuery);
 
-            fetch("http://localhost:5000/chat", {
+            fetch("https://backend-d87d.onrender.com/chat", {
                 method: "POST",
                 body: formData
             })
